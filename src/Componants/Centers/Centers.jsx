@@ -26,7 +26,7 @@ const Center = () => {
             </div>
 
             <div className="my-6">
-              <img className="inline mx-2 " src={domain} alt="" />
+              <img loading='lazy' className="inline mx-2 " src={domain} alt="" />
               <span className="font-semibold mx-2 text-gray-500 ">
                 Domain{" "}
                 <span className="font-semibold text-gray-500 mx-11">
@@ -34,7 +34,7 @@ const Center = () => {
                 </span>
               </span>
               <br />
-              <img className="inline mx-2 my-3" src={venue} alt="" />
+              <img loading='lazy' className="inline mx-2 my-3" src={venue} alt="" />
               <span className="font-semibold mx-2  text-gray-500">
                 Venue{" "}
                 <span className="font-semibold text-gray-500 mx-14">
@@ -46,7 +46,7 @@ const Center = () => {
             <div>
               <div className="bg-gray-200 w-1/2 rounded-2xl p-2 inline">
                 {" "}
-                <img className="inline" src={calender} alt="" />
+                <img loading='lazy' className="inline" src={calender} alt="" />
                 <span className=" mx-1 font-semibold text-gray-500 text-center">
                   3-5 June, 2024 05:00 PM
                 </span>
@@ -69,7 +69,7 @@ const Center = () => {
           </div>
           <div className="card flex flex-col w-1/3 h-auto rounded-2xl">
             <div className="w-full h-1/2">
-              <img
+              <img loading='lazy'
                 className="h-full w-full object-contain rounded-t-lg"
                 src={imageUrl}
                 alt=""

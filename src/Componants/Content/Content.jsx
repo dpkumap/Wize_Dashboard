@@ -82,7 +82,7 @@ const Content = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="con flex flex-col sm:flex-row gap-4 sm:gap-12 items-center sm:items-start">
             <div className="w-28 h-28 rounded-md flex-shrink-0">
-              <img className="rounded-md w-full h-full object-cover" src={conimg} alt="" />
+              <img loading='lazy' className="rounded-md w-full h-full object-cover" src={conimg} alt="" />
             </div>
             <div className="text-center sm:text-left">
               <h2 className="font-semibold text-black text-lg">
@@ -94,7 +94,7 @@ const Content = () => {
             </div>
           </div>
           <div className="mt-4 sm:mt-0">
-            <img src={rightArrow} alt="" className="w-6 h-6 sm:w-8 sm:h-8" />
+            <img loading='lazy' src={rightArrow} alt="" className="w-6 h-6 sm:w-8 sm:h-8" />
           </div>
         </div>
         {showButton && (

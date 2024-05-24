@@ -117,7 +117,7 @@ const CarouselComponent = () => {
             } ${index < currentIndex ? '-translate-x-full' : ''}`}
             data-carousel-item
           >
-            <img src={image} className="block w-full h-full object-cover" alt={`Slide ${index + 1}`} />
+            <img src={image} loading='lazy' className="block w-full h-full object-cover" alt={`Slide ${index + 1}`} />
           </div>
         ))}
       </div>
